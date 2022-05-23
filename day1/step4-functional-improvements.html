@@ -28,7 +28,8 @@
             }
             return total;
         }; */
-        /* function adder(...nums){
+        /* 
+        function adder(...nums){
             return nums.reduce(function(initval, val){
                 return initval + val;
             }, 0);
@@ -36,16 +37,28 @@
         console.log(adder(5)); 
         console.log(adder(5,6)); 
         console.log(adder(5,6,7)); 
-        console.log(adder(5,6,7,8));  */
+        console.log(adder(5,6,7,8));  
+        */
 
         // spread syntax
+        /*         
         function adder(...nums){
             return nums.reduce(function(initval, val){
                 return initval + val;
             }, 0);
         };
         let mynums = [5,6,7,8];
-        console.log(adder(...mynums));
+        console.log(adder(...mynums)); 
+        */
+
+        // arrow functions
+/*         var adder = (num1, num2) => {
+            return num1 + num2;
+        }; */
+        // var adder = (num1, num2) => num1 + num2;
+        var adder = num1 => num1 + num1;
+
+        console.log(adder(5));
     </script>
 </head>
 <body>
