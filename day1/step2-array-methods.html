@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <script>
+        // Array Methods
+        //-----------------
+        let favNum = [42,24,23,11,83,33,7,1,22,77,50,38,8];
+
+        /* for(let i = 0; i < favNum.length; i++){
+            console.log(favNum[i]);
+        }; */
+
+        // forEach
+        /*   
+        favNum.forEach(function(val, idx, arr){
+            console.log(val, idx, arr);
+        }); 
+        */
+       
+       // map
+       /*  let doubleFavNum = favNum.map(function(val){
+           return val * 2;
+        });
+        console.log(doubleFavNum); */
+        
+        // filter
+        /* 
+        let favNumsAbove50 = favNum.filter(function(val){
+           return val > 50;
+        });
+
+        console.log(favNumsAbove50); 
+        */
+
+        // every / some
+/*         let everyFavNumLessThan50 = favNum.every(function(val){
+            console.log("every was called")
+            return val < 50;
+        });
+
+        console.log(everyFavNumLessThan50); */
+      /*   let someFavNumLessThan50 = favNum.some(function(val){
+            console.log("some was called")
+            return val < 50;
+        });
+
+        console.log(someFavNumLessThan50); */
+
+        // reduce / reduceRight
+       /*  
+        let total = favNum.reduce(function(initval,val, idx, arr){
+            return initval + val;
+        },0);
+
+        console.log(total); 
+        */
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
