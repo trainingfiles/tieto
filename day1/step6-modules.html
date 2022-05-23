@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modules</title>
+    <script type="module">
+       import { Hero } from "./modules/hero.js";
+        
+        let hero1 = new Hero("Batman", "Bruce", "Wayne",8);
+        console.log( hero1.fullname() );
+
+        let hero2 = new Hero("Spiderman", "Peter", "Parker",7);
+        console.log( hero2.fullname() );
+        console.log( hero2.mission );
+        hero2.mission = "Save the world";
+        console.log( hero2.mission );
+        console.log( Hero.version );
+        console.log(hero1.showPower())
+        console.log(hero2.showPower())
+        console.log(hero1.mission);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
