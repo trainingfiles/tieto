@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destructuring</title>
+    <script>
+        var hero = {
+            title : "Batman",
+            firstname : "Bruce",
+            lastname : "Wayne",
+            power : 6
+        };
+
+        /*
+        var tempHero = hero;
+        console.log(tempHero.title);// Batman
+        console.log(hero.title);// Batman
+        tempHero.title = "Joker";
+        console.log(tempHero.title);// Joker
+        console.log(hero.title);// Joker
+        */
+
+        /*
+        var { title : heroTitle, firstname : heroFirstName, lastname : heroLastName, power : heroPower } = hero;
+        
+        console.log(heroTitle);
+        console.log(hero.title);
+        heroTitle = "Joker";
+        console.log(heroTitle);
+        console.log(hero.title);
+        */
+
+        /*      
+        var tempHero = {...hero};
+        console.log(tempHero);
+        tempHero.title = "Joker";
+        console.log(tempHero);
+        console.log(hero); 
+        */
+
+        var avengers = ['Ironman', 'Hulk', 'Thor', 'Black Widow'];
+
+        var [firsthero, secondhero, thirdhero, fourthhero] = avengers;
+
+        console.log(firsthero);// Ironman
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
