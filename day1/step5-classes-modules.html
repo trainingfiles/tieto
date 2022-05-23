@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes / Modules</title>
+    <script>
+        class Person{
+            power = 0;
+            constructor(npower){
+                this.power = npower;
+            }
+            showPower(){
+                return this.power;
+            }
+        };
+        
+        class Hero extends Person{
+            title = "default title";
+            firstname = "default firstname";
+            lastname = "default lastname";
+            #mission = "My private mission"; // indicate a private member
+            static version = 1001;
+            constructor(htitle, hfname, hlname, hpower){
+                super(hpower)
+                this.title = htitle;
+                this.firstname = hfname;
+                this.lastname = hlname;
+            }
+
+            fullname(){
+                return this.firstname+" "+this.lastname;
+            }
+            get mission(){
+                return this.#mission;
+            }
+            set mission(nmission){
+                this.#mission = nmission;
+            }
+        };
+        let hero1 = new Hero("Batman", "Bruce", "Wayne",8);
+        console.log( hero1.fullname() );
+
+        let hero2 = new Hero("Spiderman", "Peter", "Parker",7);
+        console.log( hero2.fullname() );
+        console.log( hero2.mission );
+        hero2.mission = "Save the world";
+        console.log( hero2.mission );
+        console.log( Hero.version );
+        console.log(hero1.showPower())
+        console.log(hero2.showPower())
+        console.log(hero1.mission);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
