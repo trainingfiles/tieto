@@ -1,3 +1,11 @@
+   let heroes = [
+       { path : 'batman', comp: <BatmanComp/>},
+       { path : 'superman', comp: <SupermanComp/>},
+       { path : 'aquaman', comp: <AquamanComp/>},
+       { path : 'flash', comp: <BatmanComp/>},
+       { path : 'wonderwomen', comp: <FlashComp/>},
+    ]
+
 {/*  <Route path="/" element={<div> hello from home component </div>}/> */}
      <Route path="/" element={<HomeComp/>}/> {/* default route */}
       {/*     Named Routes                
