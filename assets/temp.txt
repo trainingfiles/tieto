@@ -1,1 +1,115 @@
+DAY 1
+•	Overview
+•	What is React? What problem does it solve?
+o	ES2015 features which impact React 
+o	How to create components with ES2015
+o	Using React Create App API
+•	React Creating Components
+o	Creating Component Classes
+o	Stateless Functions
+o	Referencing DOM Elements
+•	React 
+o	Create Element & JSX
+o	Rendering
+o	Passing Props
+o	React - Working with State
+o	Managing State
+o	Initializing State
+o	Updating State
+o	Sibling Components and Keys
+o	Parent and Child Components
+o	Props and State
+•	Event Handlers
+o	Bind & Value of “this”
+o	Class Arrow Functions
+o	Inline Arrow Functions
+o	Passing in via props
 
+
+
+
+•	DAY 2 
+•	Component Types
+o	Different Types of components and their useage
+o	Pure Components
+o	Composing Components (higher order components)
+o	Portals
+o	Error Management
+o	Component Life-Cycle
+o	ComponentDidMount
+o	ShouldComponentUpdate
+o	ComponentWillReceiveProps
+o	And other life-cycle functions
+
+•	Forms and Inputs
+o	Controlled and uncontrolled inputs
+o	Usage of CreateRef
+o	Accessing value
+o	Form Events
+o	Validation
+DAY 3
+•	React Hooks
+o	What are hooks ?
+o	When to use them..
+o	Improving react with hooks
+o	useState
+o	useEffect
+o	useRef
+o	useContext
+o	useReducer
+o	useCallback
+o	Hooks to track user inputs
+o	Interactive hooks
+o	Custom hooks 
+o	
+•	SPA & routing introduction
+o	Basic routing concepts & browser history
+o	Redirects
+o	Preventing Transitions
+o	No Match – 404
+o	Route Config
+
+•	HTTP
+o	Making basic Ajax calls 
+o	Axios and Fetch APIs
+o	Consuming REST data
+o	CRUD with MongoDB
+o	Handling errors
+
+•	Context API
+o	Understanding Context API
+o	Configuration of Context API
+o	Passing data with context API
+o	Handling changes 
+o	Using the data simple and custom type
+o	Usage of consumer and producer
+o	Managing multiple producers
+
+
+DAY 4
+•	Redux
+o	Redux Intoduction
+o	Redux and its application
+o	Creating Store
+o	Creating Actions
+o	Creating Reducers
+o	Working with multiple reducers
+o	Using React Redux
+o	Usage of connect api
+o	Publish Subscribe
+o	Leverage with Hooks
+o	Usage of createStore
+o	Adding getState
+o	Using dispatch 
+o	Applying subscribe and unsubscribe
+o	Using Redux Toolkit
+
+•	Middlewares
+o	Introduction to Middlewares:	Thunk and Saga
+o	Configurations for impure functions
+o	Loggers 
+o	Thunk and its usage
+o	Thunk with axios
+
+•	Unit Testing
+o	React Testing Library 
