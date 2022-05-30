@@ -1,0 +1,13 @@
+{/*  <Route path="/" element={<div> hello from home component </div>}/> */}
+     <Route path="/" element={<HomeComp/>}/> {/* default route */}
+      {/*     Named Routes                
+      <Route path="batman" element={<BatmanComp/>}/>
+     <Route path="superman" element={<SupermanComp/>}/>
+     <Route path="aquaman" element={<AquamanComp/>}/>
+     <Route path="flash" element={<FlashComp/>}/>
+     <Route path="wonderwomen" element={<WonderWomenComp/>}/> 
+     */}
+                       
+                       
+ {/* Dynamic Routes */}
+ {heroes.map((obj, idx) =>  <Route key={idx} path={obj.path} element={obj.comp}/>)}
